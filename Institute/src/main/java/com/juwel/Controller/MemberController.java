@@ -32,15 +32,15 @@ public class MemberController {
 		return emberService.findAll();
 	}
 	
-	@PostMapping("/findMember/{email}")
-	public Optional<Member> findMember(@PathVariable String email){
-		return emberService.findById(email);
-	}
-	
-	@DeleteMapping("/removeMember/{email}")
-	public String removeMember(@PathVariable String email) {
-		emberService.deleteById(email);
-		return "Success :" + email + "  deleted";
-	}
+//	@PostMapping("/findMember/{email}")
+//	public Optional<Member> findMember(@PathVariable String email){
+//		return emberService.findById(email);
+//	}
+//	
+//	@DeleteMapping("/removeMember/{email}")
+//	public String removeMember(@PathVariable String email) {
+//		emberService.deleteById(email);
+//		return "Success :" + email + "  deleted";
+//	}
 
 }
