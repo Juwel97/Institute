@@ -1,0 +1,20 @@
+package com.juwel.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.juwel.model.Member;
+import com.juwel.repository.MemberRepo;
+
+@Service
+public class MemberService {
+
+	@Autowired
+	MemberRepo memberRepo;
+	
+	public void save(Member member) {
+		memberRepo.save(member);
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.juwel.service;
+
+@Service
+public class MemberService {
+
+}

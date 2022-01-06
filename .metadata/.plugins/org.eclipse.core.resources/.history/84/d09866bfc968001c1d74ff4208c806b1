@@ -1,0 +1,9 @@
+package com.juwel.service;
+
+public interface MemberService {
+	
+	public void save(Member member);
+
+	public List<Member> findAll();
+
+}

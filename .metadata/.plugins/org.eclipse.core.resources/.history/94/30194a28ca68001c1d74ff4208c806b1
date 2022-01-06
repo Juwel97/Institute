@@ -1,0 +1,5 @@
+package com.juwel.validator;
+
+public class MemberValidator {
+
+}

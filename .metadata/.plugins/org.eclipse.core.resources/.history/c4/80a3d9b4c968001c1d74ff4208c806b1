@@ -1,0 +1,12 @@
+package com.juwel.service;
+
+public interface MemberService {
+	
+	public void save(Member member);
+
+	public List<Member> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
