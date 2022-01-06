@@ -20,8 +20,7 @@ public class MemberServiceImpl implements MemberService{
 	}
 
 	public List<Member> findAll() {
-		// TODO Auto-generated method stub
-		return null;
+		return memberRepo.findAll();
 	}
 
 }
